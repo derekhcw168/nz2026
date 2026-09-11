@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 紐西蘭南北島夢幻仙境之旅 ｜ 30天全紀錄與旅行指南</title>
+  <meta name="description" content="2026年10月31日至11月29日，紐西蘭南北島30天深度自駕、露營車與魔戒中土世界仙境探索指南。">
+
+  <!-- 外部圖標庫 Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- 核心樣式表 -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- 動態星空粒子背景 -->
+  <canvas id="starfield-canvas"></canvas>
+
+  <!-- 頂部導航列 -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-brand">
+        <span class="brand-icon">🌿</span>
+        <span class="brand-title">AOTEAROA 2026</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#itinerary-section"><i class="fa-regular fa-calendar-days"></i> 每日行程</a></li>
+        <li><a href="#map-section"><i class="fa-solid fa-map-location-dot"></i> 路線地圖</a></li>
+        <li><a href="#guides-section"><i class="fa-solid fa-compass"></i> 深度指南</a></li>
+        <li><a href="#packing-section"><i class="fa-solid fa-suitcase-rolling"></i> 行李打包</a></li>
+        <li><a href="#tools-section"><i class="fa-solid fa-calculator"></i> 匯率分帳</a></li>
+      </ul>
+
+      <div class="nav-controls">
+        <button class="btn-ctrl" id="theme-toggle-btn" title="切換夢幻主題">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> <span>主題風格</span>
+        </button>
+        <button class="btn-ctrl" onclick="window.print()" title="列印 / 匯出 PDF 手冊">
+          <i class="fa-solid fa-print"></i> <span>列印手冊</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主內容區 -->
+  <main class="main-wrapper">
+
+    <!-- Hero 英雄主視覺區塊 -->
+    <section class="hero-section">
+      <div class="hero-badge">
+        <i class="fa-solid fa-sparkles"></i>
+        <span>Kia Ora! 2026.10.31 – 11.29 橫跨赤道的夢幻長征</span>
+      </div>
+      <h1 class="hero-title">紐西蘭南北島 30 天仙境傳奇</h1>
+      <p class="hero-subtitle">
+        從帆船之都奧克蘭，穿越南阿爾卑斯雪山、蒂芙尼藍冰川、魔戒中土世界哈比村，<br>
+        到 12 天露營車西海岸狂野雨林大縱走。一場獻給靈魂與星空的史詩冒險！
+      </p>
+
+      <!-- 即時倒數計時器 -->
+      <div class="countdown-box">
+        <div class="countdown-header">
+          <i class="fa-regular fa-clock"></i>
+          <span>距離 2026/10/31 18:45 (NZ78) 啟航倒數計時</span>
+        </div>
+        <div class="countdown-units">
+          <div class="count-unit">
+            <span class="count-num" id="count-days">00</span>
+            <span class="count-label">DAYS 天</span>
+          </div>
+          <div class="count-unit">
+            <span class="count-num" id="count-hours">00</span>
+            <span class="count-label">HOURS 時</span>
+          </div>
+          <div class="count-unit">
+            <span class="count-num" id="count-mins">00</span>
+            <span class="count-label">MINUTES 分</span>
+          </div>
+          <div class="count-unit">
+            <span class="count-num" id="count-secs">00</span>
+            <span class="count-label">SECONDS 秒</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 旅程大數據統計卡片 -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+          <div class="stat-info">
+            <span class="stat-val">30 DAYS</span>
+            <span class="stat-lbl">深度縱走天數</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-road"></i></div>
+          <div class="stat-info">
+            <span class="stat-val">3,850+ KM</span>
+            <span class="stat-lbl">自駕總里程預估</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-plane-departure"></i></div>
+          <div class="stat-info">
+            <span class="stat-val">4 FLIGHTS</span>
+            <span class="stat-lbl">國際與國內航班</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-caravan"></i></div>
+          <div class="stat-info">
+            <span class="stat-val">12 DAYS</span>
+            <span class="stat-lbl">露營車移動城堡</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-mountain-sun"></i></div>
+          <div class="stat-info">
+            <span class="stat-val">4 PARKS</span>
+            <span class="stat-lbl">國家公園世界遺產</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 旅行夥伴介紹 -->
+    <section class="travelers-section">
+      <div class="section-title-wrap">
+        <span class="section-tag">FELLOWSHIP OF THE TOUR</span>
+        <h2 class="section-title">中土世界遠征隊夥伴</h2>
+      </div>
+      <div class="travelers-grid">
+        <div class="traveler-card">
+          <div class="traveler-header">
+            <div class="traveler-avatar">D</div>
+            <div>
+              <div class="traveler-name">何志偉 (Derek)</div>
+              <div class="traveler-role">總召集 / 露營車領航 / 租車活動門票總訂</div>
+            </div>
+          </div>
+          <div class="traveler-ref"><i class="fa-solid fa-ticket"></i> 紐航機票: WCPB4H</div>
+        </div>
+        <div class="traveler-card">
+          <div class="traveler-header">
+            <div class="traveler-avatar">A</div>
+            <div>
+              <div class="traveler-name">張安莉 (Annli)</div>
+              <div class="traveler-role">財務掌櫃 / 美食探索 / 貴賓室與機場接送</div>
+            </div>
+          </div>
+          <div class="traveler-ref"><i class="fa-solid fa-ticket"></i> 紐航機票: 6PSRUH</div>
+        </div>
+        <div class="traveler-card">
+          <div class="traveler-header">
+            <div class="traveler-avatar">S</div>
+            <div>
+              <div class="traveler-name">Simon 夫妻</div>
+              <div class="traveler-role">南島合體夥伴 / 民宿別墅與飯店統籌 (11/6-11/16)</div>
+            </div>
+          </div>
+          <div class="traveler-ref"><i class="fa-solid fa-plane"></i> JQ151 (抵達) / NZ203 (離紐)</div>
+        </div>
+        <div class="traveler-card">
+          <div class="traveler-header">
+            <div class="traveler-avatar">B</div>
+            <div>
+              <div class="traveler-name">阿冰哥</div>
+              <div class="traveler-role">雪梨出發特邀嘉賓 / 自駕自煮同歡 (11/6-11/14)</div>
+            </div>
+          </div>
+          <div class="traveler-ref"><i class="fa-solid fa-plane"></i> JQ203 (雪梨直飛會合)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 路線地圖區塊 -->
+    <section class="map-section" id="map-section">
+      <div class="section-title-wrap">
+        <span class="section-tag">INTERACTIVE GPS ROUTE</span>
+        <h2 class="section-title">南北島全覽動態路線圖</h2>
+      </div>
+      <div class="map-container-card">
+        <div class="route-svg-box" id="route-svg-container">
+          <!-- SVG 地圖由 app.js 動態渲染 -->
+        </div>
+        <div class="map-points-scroll" id="map-chips-container">
+          <!-- 站點橫向 Chips -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 30 天詳細行程時間軸區塊 -->
+    <section id="itinerary-section">
+      <div class="section-title-wrap">
+        <span class="section-tag">FULL 30-DAY ITINERARY</span>
+        <h2 class="section-title">30 天每日詳細行程時間軸</h2>
+      </div>
+
+      <!-- 篩選與搜尋工具列 -->
+      <div class="itinerary-filter-bar">
+        <div class="filter-tabs">
+          <button class="filter-tab-btn active" data-phase="all">全部 30 天</button>
+          <button class="filter-tab-btn" data-phase="phase1">🏙️ 階段一：D&A 北島慢活 (D1-D6)</button>
+          <button class="filter-tab-btn" data-phase="phase2">🚗 階段二：Group 5人自駕精華 (D7-D16)</button>
+          <button class="filter-tab-btn" data-phase="phase3">🚐 階段三：D&A 12天露營車大縱走 (D17-D28)</button>
+          <button class="filter-tab-btn" data-phase="phase4">🛫 階段四：滿載返台 (D29-D30)</button>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap;">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="itinerary-search" class="search-input" placeholder="搜尋景點、住宿、活動...">
+          </div>
+          <button class="btn-ctrl" id="btn-expand-all" title="展開全部卡片">
+            <i class="fa-solid fa-angles-down"></i> <span>展開全部</span>
+          </button>
+          <button class="btn-ctrl" id="btn-collapse-all" title="收合全部卡片">
+            <i class="fa-solid fa-angles-up"></i> <span>收合全部</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 每日卡片列表 -->
+      <div class="itinerary-timeline" id="itinerary-container">
+        <!-- 每日卡片由 app.js 渲染 -->
+      </div>
+    </section>
+
+    <!-- 深度擴充指南 (7 大專題) -->
+    <section class="guides-section" id="guides-section">
+      <div class="section-title-wrap">
+        <span class="section-tag">ESSENTIAL MASTERCLASS</span>
+        <h2 class="section-title">專業旅遊與行前深度指南</h2>
+      </div>
+
+      <div class="guide-tabs" id="guide-tabs-container">
+        <!-- 指南分類標籤 -->
+      </div>
+
+      <div class="guide-content-box" id="guide-content-container">
+        <!-- 指南內容卡片 -->
+      </div>
+    </section>
+
+    <!-- 互動式行李打包清單 -->
+    <section class="packing-section" id="packing-section">
+      <div class="section-title-wrap">
+        <span class="section-tag">SMART CHECKLIST</span>
+        <h2 class="section-title">智慧行李打包檢查表</h2>
+      </div>
+
+      <div class="packing-card-wrap">
+        <!-- 打包進度條 -->
+        <div class="packing-progress-box">
+          <div class="progress-header">
+            <span><i class="fa-solid fa-clipboard-check"></i> 行李打包進度</span>
+            <div>
+              <span id="packing-progress-count" style="margin-right:0.8rem; color:var(--text-muted);">已打包 0 / 35 項</span>
+              <span id="packing-progress-percent" style="color:var(--accent); font-weight:800;">0%</span>
+            </div>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-bar-fill" id="packing-progress-fill"></div>
+          </div>
+          <div style="display:flex; justify-content:flex-end;">
+            <button class="btn-ctrl" id="btn-reset-packing" style="font-size:0.8rem; padding:0.3rem 0.7rem;">
+              <i class="fa-solid fa-rotate-right"></i> <span>重設勾選狀態</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 分類清單 -->
+        <div class="packing-categories-grid" id="packing-categories-container">
+          <!-- 由 JS 渲染 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 實用工具箱 (匯率換算 & 分帳計算機) -->
+    <section class="tools-section" id="tools-section">
+      <div class="section-title-wrap">
+        <span class="section-tag">UTILITIES & FINANCE</span>
+        <h2 class="section-title">實用旅行工具箱</h2>
+      </div>
+
+      <div class="tools-grid">
+        <!-- 匯率換算器 -->
+        <div class="tool-card">
+          <div class="tool-header">
+            <i class="fa-solid fa-coins"></i>
+            <span>即時匯率雙向換算器</span>
+          </div>
+          <div class="calc-input-group">
+            <div class="calc-row">
+              <label for="calc-nzd">紐幣 NZD ($)</label>
+              <input type="number" id="calc-nzd" class="calc-input" value="100" min="0" step="any">
+            </div>
+            <div class="calc-row">
+              <label for="calc-twd">台幣 TWD (NT$)</label>
+              <input type="number" id="calc-twd" class="calc-input" value="1950" min="0" step="any">
+            </div>
+            <div class="calc-row">
+              <label for="calc-usd">美元 USD (US$)</label>
+              <input type="number" id="calc-usd" class="calc-input" value="60.9" readonly style="opacity:0.85;">
+            </div>
+          </div>
+          <div style="font-size:0.8rem; color:var(--text-muted); margin-bottom:1rem;">
+            * 參考匯率：1 NZD ≈ 19.5 TWD，1 USD ≈ 32 TWD
+          </div>
+
+          <div style="font-weight:700; font-size:0.9rem; color:var(--text-main); margin-bottom:0.4rem;">
+            紐西蘭常見物價參考：
+          </div>
+          <table class="currency-ref-table">
+            <tr><td>Flat White 白水咖啡</td><td>NZD $5.5 (約 NT$107)</td></tr>
+            <tr><td>Fairlie 頂級手工肉派</td><td>NZD $8.5 (約 NT$165)</td></tr>
+            <tr><td>Fergburger 傳奇大漢堡</td><td>NZD $16.5 (約 NT$320)</td></tr>
+            <tr><td>超市優質紐西蘭牛排 (500g)</td><td>NZD $22.0 (約 NT$429)</td></tr>
+            <tr><td>露營車附電營位 (Power Site/晚)</td><td>NZD $65.0 (約 NT$1,267)</td></tr>
+          </table>
+        </div>
+
+        <!-- 5人共同行程分帳計算機 -->
+        <div class="tool-card">
+          <div class="tool-header">
+            <i class="fa-solid fa-users-viewfinder"></i>
+            <span>5人共同行程分帳結算 (11/6-11/16)</span>
+          </div>
+          <div style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1rem;">
+            分帳人頭比例：何志偉夫妻 (40%)、Simon夫妻 (40%)、阿冰哥 (20%)
+          </div>
+
+          <div style="max-height:220px; overflow-y:auto; scrollbar-width:thin;">
+            <table style="width:100%; border-collapse:collapse;">
+              <thead>
+                <tr style="color:var(--text-muted); font-size:0.8rem; border-bottom:1px solid rgba(255,255,255,0.1);">
+                  <th style="text-align:left; padding-bottom:0.4rem;">項目說明</th>
+                  <th style="text-align:left; padding-bottom:0.4rem;">付款人</th>
+                  <th style="text-align:right; padding-bottom:0.4rem;">金額</th>
+                </tr>
+              </thead>
+              <tbody id="expense-table-body">
+                <!-- 由 JS 渲染共同消費清單 -->
+              </tbody>
+            </table>
+          </div>
+
+          <div id="expense-summary-box">
+            <!-- 結算結果摘要 -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 大自然白噪音懸浮控制按鈕 -->
+  <div class="audio-floating-ctrl" id="audio-toggle-btn" title="播放 / 暫停紐西蘭自然白噪音 (湖泊微風)">
+    <div class="audio-pulse-dot" id="audio-pulse-dot"></div>
+    <span id="audio-label" style="font-size:0.85rem; font-weight:600;">大自然白噪音: 靜音</span>
+  </div>
+
+  <!-- 頁尾 -->
+  <footer class="site-footer">
+    <div class="footer-quote">"Not all those who wander are lost." — J.R.R. Tolkien</div>
+    <p>2026 紐西蘭南北島 30 天夢幻仙境之旅 ｜ 何志偉 (Derek) & 張安莉 (Annli)</p>
+    <p style="margin-top:0.5rem; font-size:0.8rem; color:var(--text-muted);">
+      本網頁資料由最新行程表、露營車分析、費用分工與預訂單據精心彙整建置。
+    </p>
+  </footer>
+
+  <!-- 引用資料庫與核心腳本 -->
+  <script src="assets/js/itinerary-data.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>

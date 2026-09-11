@@ -1,0 +1,9 @@
+﻿# 忽略所有私人非網站檔案
+*
+!index.html
+!assets/
+!assets/**
+!.nojekyll
+!README.md
+!DEPLOYMENT.md
+!.gitignore
