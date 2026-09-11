@@ -1,4 +1,4 @@
-/**\n * 2026 紐西蘭南北島之旅 - 核心行程與擴充知識庫\n */\n\nwindow.NZ_TRIP_DATA = {
+window.NZ_TRIP_DATA = {
   "tripMeta": {
     "title": "2026 紐西蘭南北島夢幻仙境之旅",
     "subtitle": "New Zealand North & South Island Grand Tour 2026",
@@ -215,7 +215,7 @@
       "bookingRefs": [
         {
           "label": "Dollar 奧克蘭租車單號",
-          "code": "785071933 (Kia Carnival 8人座)"
+          "code": "785071933 (Kia Carnival)"
         }
       ]
     },
@@ -507,7 +507,7 @@
       "date": "2026-11-16",
       "weekday": "週一",
       "phase": "phase3",
-      "phaseName": "🚐 階段三：D&A 12天露營車大冒險 (11/16-11/27)",
+      "phaseName": "🚐 階段三：D&A 12天露營車大縱走 (11/16-11/27)",
       "title": "D&A 露營車Day1 ｜ 基督城機場取車 ➔ 亞瑟通道 ➔ 送 Simon 夫妻機 ➔ Pearson 湖",
       "route": "基督城機場取車 ➔ 亞瑟通道 ➔ 送 Simon 夫妻機 ➔ Pearson 湖",
       "transport": "自駕還車 + 露營車 (約 2.5 hrs)",
@@ -535,7 +535,7 @@
       "date": "2026-11-17",
       "weekday": "週二",
       "phase": "phase3",
-      "phaseName": "🚐 階段三：D&A 12天露營車大冒險 (11/16-11/27)",
+      "phaseName": "🚐 階段三：D&A 12天露營車大縱走 (11/16-11/27)",
       "title": "D&A 露營車Day2 ｜ 亞瑟通道 ➔ 霍基蒂卡 (Hokitika) ｜ 峽灣大橋、螢火蟲幽谷",
       "route": "峽灣大橋、螢火蟲幽谷",
       "transport": "露營車 (約 1.5 hrs)",
@@ -564,7 +564,7 @@
       "date": "2026-11-18",
       "weekday": "週三",
       "phase": "phase3",
-      "phaseName": "🚐 階段三：D&A 12天露營車大冒險 (11/16-11/27)",
+      "phaseName": "🚐 階段三：D&A 12天露營車大縱走 (11/16-11/27)",
       "title": "D&A 露營車Day3 ｜ 霍基蒂卡 ➔ 弗朗茲約瑟夫 (Franz Josef)",
       "route": "霍基蒂卡 ➔ 弗朗茲約瑟夫 (Franz Josef)",
       "transport": "露營車 (約 2 hrs)",
@@ -593,7 +593,7 @@
       "date": "2026-11-19",
       "weekday": "週四",
       "phase": "phase3",
-      "phaseName": "🚐 階段三：D&A 12天露營車大冒險 (11/16-11/27)",
+      "phaseName": "🚐 階段三：D&A 12天露營車大縱走 (11/16-11/27)",
       "title": "D&A 露營車Day4 ｜ 弗朗茲約瑟夫 ➔ 鏡面湖 ➔ Monro 步道 ➔ 哈斯特 (Haast)",
       "route": "弗朗茲約瑟夫 ➔ 鏡面湖 ➔ Monro 步道 ➔ 哈斯特 (Haast)",
       "transport": "露營車 (約 2 hrs)",
@@ -621,7 +621,7 @@
       "date": "2026-11-20",
       "weekday": "週五",
       "phase": "phase3",
-      "phaseName": "🚐 階段三：D&A 12天露營車大冒險 (11/16-11/27)",
+      "phaseName": "🚐 階段三：D&A 12天露營車大縱走 (11/16-11/27)",
       "title": "D&A 露營車Day5 ｜ 哈斯特 ➔ 經哈斯特通道 ➔ 哈威亞湖 (Lake Hawea)",
       "route": "哈斯特 ➔ 經哈斯特通道 ➔ 哈威亞湖 (Lake Hawea)",
       "transport": "露營車 (約 2.5 hrs)",
@@ -645,7 +645,7 @@
       "bookingRefs": [
         {
           "label": "Lake Hawea 營位預約碼",
-          "code": "#81174732 (有電 Power Site)"
+          "code": "#81174732 (Power Site)"
         }
       ]
     },
@@ -654,7 +654,7 @@
       "date": "2026-11-21",
       "weekday": "週六",
       "phase": "phase3",
-      "phaseName": "🚐 階段三：D&A 12天露營車大冒險 (11/16-11/27)",
+      "phaseName": "🚐 階段三：D&A 12天露營車大縱走 (11/16-11/27)",
       "title": "D&A 露營車Day6 ｜ 哈威亞湖 ➔ 瓦納卡 (Wanaka) 悠閒一日遊",
       "route": "哈威亞湖 ➔ 瓦納卡 (Wanaka) 悠閒一日遊",
       "transport": "露營車 / 步行",
@@ -677,7 +677,7 @@
       "bookingRefs": [
         {
           "label": "Wanaka Hampshire 營位",
-          "code": "#3518752 (有電 Power Site)"
+          "code": "#3518752 (Power Site)"
         }
       ]
     },
@@ -686,7 +686,7 @@
       "date": "2026-11-22",
       "weekday": "週日",
       "phase": "phase3",
-      "phaseName": "🚐 階段三：D&A 12天露營車大冒險 (11/16-11/27)",
+      "phaseName": "🚐 階段三：D&A 12天露營車大縱走 (11/16-11/27)",
       "title": "D&A 露營車Day7 ｜ 瓦納卡 ➔ 繞行 Cromwell ➔ 皇后鎮 (Queenstown)",
       "route": "瓦納卡 ➔ 繞行 Cromwell ➔ 皇后鎮 (Queenstown)",
       "transport": "露營車 (約 1.2 hrs)",
@@ -719,7 +719,7 @@
       "date": "2026-11-23",
       "weekday": "週一",
       "phase": "phase3",
-      "phaseName": "🚐 階段三：D&A 12天露營車大冒險 (11/16-11/27)",
+      "phaseName": "🚐 階段三：D&A 12天露營車大縱走 (11/16-11/27)",
       "title": "D&A 露營車Day8 ｜ 皇后鎮續住 ｜ 乘 TSS Earnslaw 古董蒸汽船 ➔ 瓦爾特峰農場看羊毛秀",
       "route": "乘 TSS Earnslaw 古董蒸汽船 ➔ 瓦爾特峰農場看羊毛秀",
       "transport": "蒸汽船遊湖 ＋ 步行",
@@ -745,7 +745,7 @@
       "date": "2026-11-24",
       "weekday": "週二",
       "phase": "phase3",
-      "phaseName": "🚐 階段三：D&A 12天露營車大冒險 (11/16-11/27)",
+      "phaseName": "🚐 階段三：D&A 12天露營車大縱走 (11/16-11/27)",
       "title": "D&A 露營車Day9 ｜ 皇后鎮 ➔ 經 Cromwell ➔ 達尼丁 (Dunedin) ｜ 趕路日",
       "route": "趕路日",
       "transport": "露營車 (約 4.5 hrs)",
@@ -772,7 +772,7 @@
       "date": "2026-11-25",
       "weekday": "週三",
       "phase": "phase3",
-      "phaseName": "🚐 階段三：D&A 12天露營車大冒險 (11/16-11/27)",
+      "phaseName": "🚐 階段三：D&A 12天露營車大縱走 (11/16-11/27)",
       "title": "D&A 露營車Day10 ｜ 達尼丁 ➔ 莫埃拉基巨石 ➔ 奧馬魯 (Oamaru) ｜ 藍企鵝保育區觀星歸巢",
       "route": "藍企鵝保育區觀星歸巢",
       "transport": "露營車 (約 1.7 hrs)",
@@ -801,7 +801,7 @@
       "date": "2026-11-26",
       "weekday": "週四",
       "phase": "phase3",
-      "phaseName": "🚐 階段三：D&A 12天露營車大冒險 (11/16-11/27)",
+      "phaseName": "🚐 階段三：D&A 12天露營車大縱走 (11/16-11/27)",
       "title": "D&A 露營車Day11 ｜ 奧馬魯 ➔ 蒂馬魯 (中停休息) ➔ 基督城 (Christchurch) ｜ 雅芳河撐船",
       "route": "雅芳河撐船",
       "transport": "露營車 (約 3.2 hrs)",
@@ -830,7 +830,7 @@
       "date": "2026-11-27",
       "weekday": "週五",
       "phase": "phase3",
-      "phaseName": "🚐 階段三：D&A 12天露營車大冒險 (11/16-11/27)",
+      "phaseName": "🚐 階段三：D&A 12天露營車大縱走 (11/16-11/27)",
       "title": "D&A 露營車Day12 ｜ 基督城還露營車 ➔ 飛奧克蘭 ➔ 奧克蘭機場飯店",
       "route": "基督城還露營車 ➔ 飛奧克蘭 ➔ 奧克蘭機場飯店",
       "transport": "露營車 (約 20 mins) + 國內線 (NZ0546) + 大眾運輸",
@@ -864,7 +864,7 @@
       "date": "2026-11-28",
       "weekday": "週六",
       "phase": "phase4",
-      "phaseName": "🛫 階段四：滿載而歸 (11/28-11/29)",
+      "phaseName": "🛫 階段四：滿載返台 (11/28-11/29)",
       "title": "D&A 北島Day12 - 奧克蘭搭機返回台北",
       "route": "D&A 北島Day12 - 奧克蘭搭機返回台北",
       "transport": "飛機轉機 (NZ81 -> CX0402)",
@@ -908,7 +908,7 @@
       "date": "2026-11-29",
       "weekday": "週日",
       "phase": "phase4",
-      "phaseName": "🛫 階段四：滿載而歸 (11/28-11/29)",
+      "phaseName": "🛫 階段四：滿載返台 (11/28-11/29)",
       "title": "抵達台灣，返家休息",
       "route": "抵達台灣，返家休息",
       "transport": "無",
@@ -935,7 +935,7 @@
     "biosecurity": {
       "title": "紐西蘭海關與生物安全申報必知 (Biosecurity Guide)",
       "icon": "fa-shield-halved",
-      "badge": "違規當場開罰 NZD  起",
+      "badge": "違規當場開罰 NZD $400 起",
       "desc": "紐西蘭擁有全球最脆弱孤立的生態系統，入境檢疫（MPI）堪稱世界最嚴苛！",
       "cards": [
         {
@@ -948,11 +948,11 @@
         },
         {
           "title": "💡 申報黃金守則：不確定就勾「YES」申報！",
-          "content": "紐西蘭法律規定：凡「誠實申報」者，就算海關認定不能帶，也只是當場丟棄銷毀，絕對不會罰款！只有「未申報被搜出」才會被當場開罰 NZD  起跳甚至起訴。走申報通道檢查通常只要 5-10 分鐘，安全安心。"
+          "content": "紐西蘭法律規定：凡「誠實申報」者，就算海關認定不能帶，也只是當場丟棄銷毀，絕對不會罰款！只有「未申報被搜出」才會被當場開罰 NZD $400 起跳甚至起訴。走申報通道檢查通常只要 5-10 分鐘，安全安心。"
         },
         {
           "title": "📲 NZeTA 電子簽證與 NZTD 旅客聲明",
-          "content": "出發前至少 1-2 個月在手機 App「NZeTA」申請電子簽證（含 IVL 國際遊客環保稅約 NZD ，效期 2 年）。起飛前 24 小時內線上填寫「NZTD (紐西蘭旅客聲明)」，存好 QR Code 截圖備查。"
+          "content": "出發前至少 1-2 個月在手機 App「NZeTA」申請電子簽證（含 IVL 國際遊客環保稅約 NZD $100，效期 2 年）。起飛前 24 小時內線上填寫「NZTD (紐西蘭旅客聲明)」，存好 QR Code 截圖備查。"
         }
       ]
     },
@@ -1108,7 +1108,7 @@
         "台灣汽車駕照正本 (租車與露營車必查！)",
         "國際駕照正本 (有效期限內)",
         "信用卡 3-4 張 (已向發卡銀行開啟海外刷卡與 4 碼預借現金 PIN 碼)",
-        "紐幣現金 NZD - (應急小額現金)",
+        "紐幣現金 NZD $300-$500 (應急小額現金)",
         "所有訂房、租車、露營車、票券確認信印出紙本備查"
       ]
     },
@@ -1253,4 +1253,4 @@
       }
     ]
   }
-};\n
+};
